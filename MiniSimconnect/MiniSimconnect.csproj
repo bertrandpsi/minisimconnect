@@ -102,6 +102,6 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>xcopy "C:\MSFS SDK\SimConnect SDK\lib\SimConnect.dll" "$(TargetDir)" /y
-xcopy "C:\MSFS SDK\SimConnect SDK\lib\SimConnect.cfg" "$(TargetDir)" /y</PostBuildEvent>
+xcopy "C:\MSFS SDK\Samples\SimvarWatcher\SimConnect.cfg" "$(TargetDir)" /y</PostBuildEvent>
   </PropertyGroup>
 </Project>

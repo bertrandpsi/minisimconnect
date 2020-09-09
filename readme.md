@@ -7,7 +7,7 @@ To create your own SimProject make sure of:
 3. You must have a post build event which copies the DLL and config:
 ```
 xcopy "C:\MSFS SDK\SimConnect SDK\lib\SimConnect.dll" "$(TargetDir)" /y
-xcopy "C:\MSFS SDK\SimConnect SDK\lib\SimConnect.cfg" "$(TargetDir)" /y
+xcopy "C:\MSFS SDK\Samples\SimvarWatcher\SimConnect.cfg" "$(TargetDir)" /y
 ```
 
 Have fun!
